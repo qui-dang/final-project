@@ -10,25 +10,44 @@
 </head>
 
 <body>
-    <nav>
-        <div class="row">
-            <div class="nav">
-                <div class="nav__logo">
-                    <img class=logo src="./assets/logo.svg" alt="Treat Logo">
-                    <h1>Treact</h1>
+    <section class="navigation">
+        <div class="nav__container">
+            <nav class="navbar">
+                <div class="nav">
+                    <figure class="logo">
+                        <img class=logo__primary src="./assets/logo.svg" alt="Treact Logo">
+                        <h1 class="logo__name">Treact</h1>
+                    </figure>
+                    <div class="nav__links">
+                        <ul>
+                            <li><a href="#" class="nav__link">About</a></li>
+                            <li><a href="#" class="nav__link">Blog</a></li>
+                            <li><a href="#" class="nav__link">Pricing</a></li>
+                            <li><a href="#" class="nav__link">Contact Us</a></li>
+                            <li><a href="#" class="nav__link">Login</a></li>
+                            <li><a href="#" class="nav__link--primary">Sign Up</a></li>
+                        </ul>
+                    </div>
                 </div>
-
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Sign Up</a></li>
-                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="landing_page">
+        <div class="row">
+            <div class="column__one">
+                <h1>Beautiful React Templates</h1>
+                <h1><span class="purple">for you.</span></h1>
+                <p>Our templates are easy to setup, understand and customize. Fully modular components with a variety of
+                    pages and components.</p>
+                <p>Your E-Mail Here</p>
+                <input type="button" value="Get Started">
+                <img class="company__logo" src="./assets/treact_company_logo.png" alt="company logo">
+            </div>
+            <div class="column__two">
+                <img class="landing__logo" src="./assets/landing_img.svg" alt="">
             </div>
         </div>
-    </nav>
+    </section>
 </body>
 
 </html>
