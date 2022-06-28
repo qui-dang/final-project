@@ -11,6 +11,12 @@
 NAVIGATION BAR
 */
 
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .nav__container {
   width: 100%;
   max-width: 1200px;
@@ -73,24 +79,49 @@ LANDING
 */
 
 .column__one {
+  max-width: 500px;
   width: 40%;
   flex-direction: column;
-  display: flex;
+  text-align: start;
+  display: inline-block;
+  margin-top: -50%;
 }
 
 .column__two {
+  max-width: 700px;
   width: 60%;
+  align-content: flex-end;
+  display: inline-block;
 }
 
 .company__logo {
-  width: 720px;
+  width: 400px;
+  padding-top: 20px;
 }
 
 .landing__logo {
-  width: 500px;
-  flex-direction: column;
-  float: right;
+  width: 600px;
+  align-content: center;
+  margin: auto;
+  display: flex;
+}
+
+.header__description {
+  margin: auto 0;
+  padding-bottom: 120px;
+}
+
+.paragraph__description {
+    margin: auto 0;
+    padding-bottom: 30px;
 }
 .purple {
   color: #7342d6;
+  justify-content: left;
+}
+
+.email__button {
+  padding-bottom: 10px;
+  text-align: center;
+  margin: auto;
 }
