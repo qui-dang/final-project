@@ -230,7 +230,7 @@ FEATURES
   display: flex;
   flex-direction: column;
   height: 100px;
-  width: 250px;
+  width: 200px;
   justify-content: space-evenly;
   text-align: start;
   padding-left: 10px;
@@ -241,7 +241,7 @@ FEATURES
 .service__logo--primary {
   border: 2px solid lightgrey;
   border-radius: 25px;
-  padding: 5px;
+  padding: 2px;
 }
 
 h1 {
@@ -261,6 +261,8 @@ QUALITY WORK PAGE
   justify-content: left;
   float: left;
   padding-top: 150px;
+  position: relative;
+  padding-bottom: 125px;
 }
 
 .qualitywork__title {
@@ -281,14 +283,14 @@ QUALITY WORK PAGE
   font-size: 15px;
   text-align: left;
   line-height: 1.6;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0px 70px 0px;
 }
 
 .column__two--qualitywork {
   max-width: 50%;
   float: left;
   padding-left: 10px;
-  padding-top: 125px;
+  padding-top: 150px;
 }
 
 .img__landing {
@@ -297,11 +299,28 @@ QUALITY WORK PAGE
   border-radius: 20px;
 }
 
-.learnmore__button {
-  width: 120px;
-  text-decoration: none;
-  border-radius: 20px;
+
+.qualitywork__button {
+  max-width: 125px;
+  width: 100%;
+  padding: 10px 10px;
+  border: 2px;
+  border-radius: 9999px;
   background-color: #7342d6;
+  text-decoration: none;
+  color: white;
+  font-weight: 900px;
   font-size: 16px;
-  font-weight: 900;
 }
+
+.steps__container {
+  height: auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.laptop__img {
+  max-width: 600px;
+  width: 100%;
+}
+
