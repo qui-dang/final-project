@@ -214,7 +214,6 @@ FEATURES
   flex-wrap: wrap;
   margin: auto;
   padding: 0;
-
 }
 
 .service {
@@ -223,7 +222,6 @@ FEATURES
   max-height: 50%;
   height: 100px;
   min-height: auto;
-  
 }
 
 .service__description {
@@ -234,7 +232,7 @@ FEATURES
   justify-content: space-evenly;
   text-align: start;
   padding-left: 10px;
-  color:grey;
+  color: grey;
   font-size: 15px;
 }
 
@@ -254,10 +252,10 @@ QUALITY WORK PAGE
 */
 
 .column__one--qualitywork {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   max-width: 50%;
-  max-height: 100%;
+  height: 650px;
   justify-content: left;
   float: left;
   padding-top: 150px;
@@ -291,6 +289,7 @@ QUALITY WORK PAGE
   float: left;
   padding-left: 10px;
   padding-top: 150px;
+  height: 650px;
 }
 
 .img__landing {
@@ -298,7 +297,6 @@ QUALITY WORK PAGE
   border: 1px solid lightgrey;
   border-radius: 20px;
 }
-
 
 .qualitywork__button {
   max-width: 125px;
@@ -313,14 +311,56 @@ QUALITY WORK PAGE
   font-size: 16px;
 }
 
-.steps__container {
+/* 
+REGISTER SECTION
+*/
+
+.column__one--register {
+  width: 50%;
+  justify-content: center;
+  display: flex;
+  float: left;
+}
+
+.img__register {
+  width: 100%;
   height: auto;
-  max-width: 1200px;
-  width: 100%;
 }
 
-.laptop__img {
-  max-width: 600px;
-  width: 100%;
+.column__two--register {
+  width: 1200px;
+  max-width: 50%;
+  justify-content: left;
+  margin-left: 50%;
 }
 
+.steps {
+  color: #7342d6;
+  font-size: 18px;
+}
+
+.register__title {
+  color: #7342d6;
+}
+
+.register__title--primary {
+  font-size: 38px;
+}
+.steps__register {
+  flex-direction: column;
+  justify-content: left;
+}
+
+.steps__register--primary {
+  display: flex;
+}
+
+.step__numbers {
+  color: silver;
+  font-size: 38px;
+}
+
+.steps__description {
+  color: grey;
+  
+}
