@@ -348,19 +348,30 @@ REGISTER SECTION
 }
 .steps__register {
   flex-direction: column;
-  justify-content: left;
 }
 
 .steps__register--primary {
-  display: flex;
+  margin: left;
+  width: 10px;
+  height: 0px;
 }
 
 .step__numbers {
   color: silver;
   font-size: 38px;
+  
+  padding: 0px;
 }
 
 .steps__description {
   color: grey;
-  
+  padding-bottom: 20px;
+  width: 300px;
+  justify-content: center;
+  margin: 0 auto;
 }
+
+/* 
+VALUES
+*/
+
