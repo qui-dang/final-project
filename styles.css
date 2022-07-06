@@ -21,7 +21,7 @@ body {
 
 /* 
 
-Treact Navigational Bar
+Navigational bar
 
 */
 
@@ -29,7 +29,7 @@ Treact Navigational Bar
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 100%;
 }
 
 .nav__image {
@@ -44,8 +44,7 @@ Treact Navigational Bar
 
 .nav__title {
   color: black;
-  font-size: 1.5rem;
-  font-weight: 700px;
+  font-size: 3rem;
   text-align: center;
   vertical-align: middle;
   line-height: 100px;
@@ -57,7 +56,7 @@ Treact Navigational Bar
   margin: 0;
   font-size: 15px;
   margin: right;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .nav__links--primary {
@@ -67,7 +66,6 @@ Treact Navigational Bar
   background: #6415ff;
   border-style: solid;
   border-width: 10px;
-  font-weight: 600;
 }
 
 li {
@@ -83,65 +81,123 @@ a {
 
 /* 
 
-Home Page 
+row #1 // two column input
 
 */
 
-.home__page {
+.twocolumninput {
   display: flex;
   padding: 125px 0px;
 }
-.home__page__description {
+.twocolumninput__leftside {
   width: 40%;
 }
+/* 
 
-.home__page--image {
-  width: 60%;
-}
+row #1 // left side of column input including title and description
 
-.home__page--image--primary {
-  max-width: 100%;
-  max-height: 100%;
-}
+*/
 
-.home__page__description--title {
+.twocolumninput__title {
   font-size: 3rem;
 }
 
-.home__page__description__purple {
+span {
   color: #6415ff;
 }
 
-.home__page__paragraph {
-  padding: 20px 0px;
-  font-size: 1.15rem;
+.twocolumninput__paragraph {
+  padding: 30px 0px;
+  font-size: 1rem;
   line-height: 25px;
+  color: black;
 }
 
-.home__page__email {
-  margin-left: 0px;
-  margin-right: 0px;
+/* 
+
+row #1 // email button
+
+*/
+
+.twocolumninput__email {
   position: relative;
   max-width: 28rem;
   text-align: center;
 }
 
-.home__page__email::before,
-.home__page__email::after {
+.twocolumninput__email::before,
+.twocolumninput__email::after {
   box-sizing: border-box;
   border: 0 solid #e5e7eb;
 }
 
-.home__page_email--button {
-    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
-    padding-left: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 9999px;
-    border-width: 2px;
-    width: 100%;
-    font-weight: 500;
-    transition-duration: 300ms;
+.twocolumninput__input {
+  padding-right: 12rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 2rem;
+  border-radius: 9999px;
+  border-width: 2px;
+  width: 100%;
+  font-weight: 500;
 }
 
-.home__page
+.twocolumninput__input--button {
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  width: 10rem;
+  line-height: 1;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  font-weight: 700;
+  margin-right: 0.5rem;
+  border-radius: 9999px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6415ff;
+  color: white;
+}
+
+.twocolumninput__secondtitle {
+  margin-top: 10rem;
+}
+
+.twocolumninput__secondtitle--primary {
+  font-size: 1rem;
+  padding-bottom: 10px;
+  color: #535856;
+}
+
+.twocolumninput__image--left {
+  display: flex;
+  justify-content: left;
+}
+
+.twocolumninput__image--primary {
+  display: flex;
+  max-width: 100%;
+}
+
+/* 
+
+right side of column 
+
+*/
+
+.twocolumninput__rightside {
+  width: 40%;
+}
+
+.twocolumninput__rightside {
+  width: 60%;
+}
+
+.twocolumninput__image--right {
+  width: 100%;
+  height: 100%;
+}
