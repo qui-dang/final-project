@@ -47,7 +47,7 @@ Navigational bar
 }
 
 .nav__title {
-  color: black;
+  color: #243e63;
   font-size: 3rem;
   text-align: center;
   vertical-align: middle;
@@ -78,7 +78,7 @@ li {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #243e63;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -104,6 +104,7 @@ row #1 // left side of column input including title and description
 
 .twocolumninput__title {
   font-size: 3rem;
+  color: #243e63;
 }
 
 span {
@@ -235,4 +236,14 @@ right side of column
   max-width: 500px;
   color: #8795a9;
   font-weight: 400;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service {
+  display: flex;
+  width: calc(100%/3)
 }
