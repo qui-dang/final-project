@@ -248,7 +248,7 @@ right side of column
 
 .service {
   display: flex;
-  width: calc(100%/3);
+  width: calc(100% / 3);
   max-width: 900px;
   padding: 30px 30px;
   font-size: 15px;
@@ -294,13 +294,81 @@ right side of column
   padding-bottom: 125px;
 }
 
-.leftside__column {
+.leftside__columnwithbutton {
   width: 50%;
   display: flex;
   flex-direction: column;
 }
 
+.leftsidecolumn__title {
+  font-size: 18px;
+  color: #6415ff;
+}
+
+.leftsidecolumn__title__two {
+  font-size: 60px;
+  font-weight: 700;
+  color: #243e63;
+  padding: 20px 0;
+}
+
+.leftsidecolumn__paragraph {
+  font-size: 16px;
+  font-weight: 500;
+  color: #8795a9;
+  line-height: 25px;
+}
+
+.leftcolumn__button {
+  display: flex;
+  padding: 20px 0;
+}
+
+.leftcolumn__button--primary {
+  border-radius: 9999px;
+  border-color: #6415ff;
+  background-color: #6415ff;
+  border-width: 10px;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+}
+
 .rightside__column {
   width: 50%;
   display: flex;
+}
+
+.rightside__column__image {
+  width: 100%;
+  display: flex;
+  border-radius: 10px;
+  border-style: solid;
+  color: #e5e7eb;
+}
+
+/* 
+
+4th row // same thing as the 3rd row. two column with no inputs.
+
+*/
+
+.twocolumnswith__image_steps {
+  display: flex;
+}
+
+.leftsidecol__image {
+  width: 50%;
+  display: flex;
+}
+
+.laptop__image {
+  width: 100%;
+  display: flex;
+}
+
+.rightsidecol {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
 }
