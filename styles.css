@@ -360,6 +360,7 @@ right side of column
 .leftsidecol__image {
   width: 50%;
   display: flex;
+  float: left;
 }
 
 .laptop__image {
@@ -367,18 +368,19 @@ right side of column
   display: flex;
 }
 
+/* 
+
+4th row // right side column with header, paragraphs and flexbox positioning.
+
+*/
+
+
 .rightsidecol {
   display: flex;
   justify-content: center;
   width: 50%;
   flex-direction: column;
 }
-
-/* 
-
-4th row // right side column with header, paragraphs and flexbox positioning.
-
-*/
 
 .steps {
   font-size: 18px;
@@ -390,16 +392,13 @@ right side of column
   color: #243e63;
 }
 
-.leftsidecol__description {
+.description__container {
   display: flex;
-  text-align: center;
-  justify-content: left;
+
 }
 /* div row number and name */
 .number {
   display: flex;
-  text-align: center;
-  margin: auto 0;
 }
 
 /*  */
@@ -408,23 +407,32 @@ right side of column
   flex-direction: row;
   color: #6415ff;
   font-size: 1.5rem;
-  width: 100px;
 }
 
 .name {
-  justify-content: left;
   color: #243e63;
   font-size: 1.5rem;
 }
 /*  */
 
-.leftsidecol__description--primary {
+.rightsidecol__description {
   display: flex;
-  justify-content: center;
-  color: #243e63;
-  padding-left: 100px;
-  font-size: 16px;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  height: auto;
+  width: 350px;
 }
+
+.rightsidecol__description--primary {
+  font-size: 16px;
+  justify-content: left;
+  padding-top: 5px;
+  color: #8795a9;
+}
+
+/* Description is unfinished. Return to it later. */
+
 
 /*  
 
