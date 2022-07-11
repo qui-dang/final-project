@@ -375,7 +375,6 @@ right side of column
 
 */
 
-
 .rightsidecol {
   display: flex;
   justify-content: center;
@@ -396,7 +395,6 @@ right side of column
 
 .description__container {
   display: flex;
-
 }
 /* div row number and name */
 .number {
@@ -435,7 +433,6 @@ right side of column
 
 /* Description is unfinished. Return to it later. */
 
-
 /*  
 
 5th row // creating a column of drop down menus with information inside
@@ -447,13 +444,31 @@ right side of column
 }
 
 .plan {
-  width: calc(100%/3);
+  width: calc(100% / 3);
   display: flex;
   flex-direction: column;
 }
 
 .plans__title {
-  text-align: center;
   display: flex;
   flex-direction: column;
+  text-align: center;
+  width: 100%;
+  padding-top: 125px;
+}
+
+.plans__title--primary {
+  font-size: 18px;
+}
+
+.plans__title--secondary {
+  font-size: 60px;
+  color: #243e63;
+}
+
+.plans__description {
+  display: flex;
+  color: #8795a9;
+  width: 100%;
+  max-width: 600px;
 }
