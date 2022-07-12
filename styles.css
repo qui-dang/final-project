@@ -438,17 +438,6 @@ right side of column
 5th row // creating a column of drop down menus with information inside
 
 */
-.plans {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.plan {
-  width: calc(100% / 3);
-  display: flex;
-  flex-direction: column;
-}
-
 .plans__title {
   display: flex;
   flex-direction: column;
@@ -467,8 +456,72 @@ right side of column
 }
 
 .plans__description {
-  display: flex;
-  color: #8795a9;
   width: 100%;
-  max-width: 600px;
+  padding: 20px 200px;
+  justify-content: center;
+  text-align: center;
+  color: #8795a9;
+}
+
+/* 
+
+5th row // column for each plans.
+
+*/
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.plan {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* 
+
+plan / column one
+
+*/
+
+.plan__column__one {
+  padding: 15px;
+  width: 100%;
+  margin: 10px;
+  border-radius: 25px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #8795a9;
+}
+
+.plan__header {
+  font-size: 20px;
+  color: #243e63;
+}
+
+.plan__price {
+  font-size: 40px;
+  color: black;
+  padding: 20px 0;
+}
+
+.plan__term {
+  font-size: 16px;
+  color: #8795a9;
+}
+
+.plan__description {
+  padding: 10px;
+}
+
+.plan__column_two {
+  padding: 15px;
+  width: 100%;
+  margin: 10px;
+  border-radius: 25px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #8795a9;
 }
