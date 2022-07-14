@@ -471,6 +471,7 @@ right side of column
 .plans {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 200px;
 }
 
 .plan {
@@ -489,48 +490,77 @@ plan / column one
 .plan__primary{
   display: flex;
   flex-direction: column;
-  padding: 15px;
+  justify-content: center;
+  align-items: center;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-top-width: 1px;
+  border-bottom-width: 0px;
+  border-color: #f0f0f0;
   width: 100%;
-  height: 100%;
   max-width: 350px;
-  max-height: 350px;
-  margin: 10px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #6415ff;
-  border-collapse: collapse;
-  border-color: rgba(102,126,234,var(--tw-border-opacity));
-
+  padding: 12px;
 }
 
 .plan__header {
   font-size: 20px;
-  color: #243e63;
+  color: #6415ff;
+  font-weight: 500;
 }
 
 .plan__price {
-  font-size: 32px;
-  color: black;
+  font-size: 40px;
+  color: #243e63;
   padding: 20px 0;
+  font-weight: 700;
 }
 
 .plan__term {
-  font-size: 16px;
-  color: #8795a9;
+  font-size: 20px;
+  font-weight: 500;
+  color: #6415ff;
 }
 
 .plan__header--two {
-  font-size: 20px;
-  color: #243e63;
+  font-size: 18px;
+  font-weight: 500;
+  color: #6415ff;
+  padding: 10px;
 }
 
+
 .plan__description {
-  padding: 5px;
-  font-size: 16px;
+  padding: 10px;
+  font-size: 18px;
+  color: #8795a9;
 }
 
 .plan__button {
-  font-size: 20px;
-  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 5px 25px;
+  color: white;
+  background-color: #6415ff;
+  border-radius: 9999px;
+  border: #6415ff;
 }
 
+/* 
+
+6TH ROW / TESTIMONIALS
+
+*/
+
+.testimonials__leftcol {
+  display: flex;
+  width: 50%;
+}
+
+.love {
+  display: flex;
+  width: 100%
+}
