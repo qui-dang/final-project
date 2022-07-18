@@ -338,6 +338,7 @@ right side of column
 .rightside__column {
   width: 50%;
   display: flex;
+  padding-left: 10px;
 }
 
 .rightside__column__image {
@@ -380,6 +381,7 @@ right side of column
   justify-content: center;
   width: 50%;
   flex-direction: column;
+  padding-left: 25px;
 }
 
 .steps {
@@ -395,6 +397,7 @@ right side of column
 
 .description__container {
   display: flex;
+  line-height: 25px;
 }
 /* div row number and name */
 .number {
@@ -461,6 +464,7 @@ right side of column
   justify-content: center;
   text-align: center;
   color: #8795a9;
+  line-height: 30px;
 }
 
 /* 
@@ -487,7 +491,7 @@ plan / column one
 
 */
 
-.plan__primary{
+.plan__primary {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -499,7 +503,7 @@ plan / column one
   border-left-width: 1px;
   border-right-width: 1px;
   border-top-width: 1px;
-  border-bottom-width: 0px;
+  border-bottom-width: 1px;
   border-color: #f0f0f0;
   width: 100%;
   max-width: 350px;
@@ -532,7 +536,6 @@ plan / column one
   padding: 10px;
 }
 
-
 .plan__description {
   padding: 10px;
   font-size: 18px;
@@ -558,9 +561,68 @@ plan / column one
 .testimonials__leftcol {
   display: flex;
   width: 50%;
+  float: left;
+}
+.testimonials__rightcol {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 20px;
 }
 
 .love {
   display: flex;
-  width: 100%
+  width: 100%;
 }
+
+.testimonials__header {
+  padding: 0;
+  font-size: 18px;
+}
+
+.testimonials__header--primary {
+  font-size: 60px;
+  padding-top: 10px;
+  color: #243e63;
+}
+
+.testimonials__description {
+  line-height: 30px;
+  color: #8795a9;
+  padding: 30px 0;
+}
+
+.rating__stars {
+  color: gold;
+}
+
+.user__experience {
+  font-size: 30px;
+  color: #243e63;
+  padding: 10px 0;
+}
+
+.user__description {
+  color: #8795a9;
+  line-height: 30px;
+}
+
+.review {
+  display: flex;
+  padding: 20px 0;
+}
+
+.jacob__s {
+  width: 100%;
+  max-width: 66px;
+  border-radius: 9999px;
+  border-style: solid;
+  border-width: 10px;
+  border: #8795a9;
+}
+
+.jacob__name {
+  display: flex;
+  text-align: center;
+}
+
