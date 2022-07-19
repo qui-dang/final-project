@@ -570,6 +570,10 @@ plan / column one
   padding-left: 20px;
 }
 
+.clients {
+  color: #243e63;
+}
+
 .love {
   display: flex;
   width: 100%;
@@ -614,15 +618,24 @@ plan / column one
 
 .jacob__s {
   width: 100%;
+  height: 100%;
   max-width: 66px;
+  max-height: 66px;
   border-radius: 9999px;
   border-style: solid;
   border-width: 10px;
   border: #8795a9;
 }
 
-.jacob__name {
+.jacob__name{
   display: flex;
-  text-align: center;
+  flex-direction: column;
+  color: #243e63;
+  margin-left: 20px;
+}
+
+.jacobs__name {
+  display: flex;
+  font-size: 25px;
 }
 
