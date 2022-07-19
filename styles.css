@@ -639,3 +639,15 @@ plan / column one
   font-size: 25px;
 }
 
+/* 
+
+7th row // end page with two buttons
+
+*/
+
+.container__twoinput {
+  background-image: linear-gradient(#996bf5, #5004ea);
+  height: auto;
+  color: white;
+  justify-content: space-between;
+}
