@@ -50,7 +50,7 @@ Navigational bar
 }
 
 .nav__title {
-  color: #243e63;
+  color: #2b2b2b;
   font-size: 3rem;
   text-align: center;
   vertical-align: middle;
@@ -81,7 +81,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #243e63;
+  color: #2b2b2b;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -107,7 +107,7 @@ row #1 // left side of column input including title and description
 
 .twocolumninput__title {
   font-size: 3rem;
-  color: #243e63;
+  color: #2b2b2b;
 }
 
 span {
@@ -229,7 +229,7 @@ right side of column
 
 .service__title {
   padding: 20px 0;
-  color: #243e63;
+  color: #2b2b2b;
   font-size: 3rem;
 }
 
@@ -256,7 +256,7 @@ right side of column
 
 .service__title__description {
   font-size: 2rem;
-  color: #243e63;
+  color: #2b2b2b;
   text-align: start;
   height: auto;
   padding-bottom: 20px;
@@ -308,7 +308,7 @@ right side of column
 .leftsidecolumn__title__two {
   font-size: 60px;
   font-weight: 700;
-  color: #243e63;
+  color: #2b2b2b;
   padding: 20px 0;
 }
 
@@ -391,7 +391,7 @@ right side of column
 
 .rightsidecol__title {
   font-size: 60px;
-  color: #243e63;
+  color: #2b2b2b;
   padding-bottom: 20px;
 }
 
@@ -413,7 +413,7 @@ right side of column
 }
 
 .name {
-  color: #243e63;
+  color: #2b2b2b;
   font-size: 1.5rem;
 }
 /*  */
@@ -455,7 +455,7 @@ right side of column
 
 .plans__title--secondary {
   font-size: 60px;
-  color: #243e63;
+  color: #2b2b2b;
 }
 
 .plans__description {
@@ -571,7 +571,7 @@ plan / column one
 }
 
 .clients {
-  color: #243e63;
+  color: #2b2b2b;
 }
 
 .love {
@@ -587,7 +587,7 @@ plan / column one
 .testimonials__header--primary {
   font-size: 60px;
   padding-top: 10px;
-  color: #243e63;
+  color: #2b2b2b;
 }
 
 .testimonials__description {
@@ -602,7 +602,7 @@ plan / column one
 
 .user__experience {
   font-size: 30px;
-  color: #243e63;
+  color: #2b2b2b;
   padding: 10px 0;
 }
 
@@ -630,7 +630,7 @@ plan / column one
 .jacob__name{
   display: flex;
   flex-direction: column;
-  color: #243e63;
+  color: #2b2b2b;
   margin-left: 20px;
 }
 
@@ -646,10 +646,12 @@ plan / column one
 
 */
 
+
 .links {
   display: flex;
   flex-wrap: wrap;
   padding-top: 125px;
+  
 }
 
 .link {
@@ -657,5 +659,21 @@ plan / column one
   flex-direction: column;
   width: calc(100%/5);
   align-items: center;
-  color: white;
+}
+
+.link__header {
+  font-size: 18px;
+  font-weight: bold;
+  color:#6415ff;
+}
+.link__titles {
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
