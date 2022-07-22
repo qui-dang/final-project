@@ -641,13 +641,21 @@ plan / column one
 
 /* 
 
-7th row // end page with two buttons
+7th row 5 columns with different links
+
 
 */
 
-.container__twoinput {
-  background-image: linear-gradient(#996bf5, #5004ea);
-  height: auto;
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 125px;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  width: calc(100%/5);
+  align-items: center;
   color: white;
-  justify-content: space-between;
 }
