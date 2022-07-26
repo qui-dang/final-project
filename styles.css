@@ -86,59 +86,6 @@ a {
   padding-left: 20px;
 }
 
-
-/* 
-
-Burger Menu for Smaller Devices 
-
-*/
-
-.btn__menu {
-  background-color: transparent;
-  font-size: 40px;
-  text-align: center;
-  border: none;
-  color: #6415ff;
-}
-
-.menu__backdrop {
-  position: absolute;
-  background-color: #e5e7eb;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 100;
-  display: none;
-}
-
-.btn__menu--close {
-  position: absolute;
-  right: 20px;
-  top: 10px;
-  padding: 8px;
-  color: #6415ff;
-}
-
-.menu__links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.menu__list {
-  padding: 20px;
-}
-
-.menu__link {
-  color: #2b2b2b;
-  font-size: 40px;
-}
-
-
-
-
-
 /* 
 
 row #1 // two column input
@@ -784,10 +731,16 @@ SMALL PHONES, TABLETS, LARGE SMART PHONES
     font-size: 12px;
   }
 
+  .nav__links--primary {
+    border-width: 5px;
+  }
+
   .twocolumninput {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0;
+    padding-top: 50px;
   }
 
   .twocolumninput__leftside {
@@ -795,7 +748,28 @@ SMALL PHONES, TABLETS, LARGE SMART PHONES
   }
 
   .twocolumninput__title {
-    font-size: 40px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .twocolumninput__paragraph {
+    text-align: center;
+  }
+
+  .twocolumninput__input {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .twocolumninput__input--button {
+    position: relative;
+    width: 100%;
+    font-size: 20px;
+    
+  }
+
+  .twocolumninput__secondtitle {
+    text-align: center;
   }
 
   .services {
